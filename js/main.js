@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('CAJUL, NEOMU YEPPEO').split('');
+        const titles = ('Special Flower').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Semoga di tahun ini ka cajul bahagia dan semua wishlistnya terwujud ya Kaka cantik🤍🤍 ";
+            subtitle.innerText = "thank you for being such a kind and thoughtful caretaker for everything around you, this world needs more people like you";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
